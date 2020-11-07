@@ -1,6 +1,26 @@
 def search(
         log,
-        terms=("juice", "smoothie", "drink", "milk", "bubblywateritem", "freshwateritem"),
+        terms=(
+                "juice",
+                "smoothie",
+                "drink",
+                "milk",
+                "bubblywateritem",
+                "freshwateritem",
+                "coffeeitem",
+                "coffeelonlecheitem",
+                "teaitem",
+                "sodaitem",
+                "slushieitem",
+                "cocktailitem",
+                "latteitem",
+                "yogurtitem",
+                "tektopia:beer",
+                "floatitem",
+                "hotcocoaitem",
+                "hotchocolateitem",
+                "soupitem"
+        ),
         start="\"<",
         end=">\"\n"
 ):
